@@ -1,0 +1,8 @@
+[sync]
+auto_sync = false
+records = "unlimited"
+
+[search]
+mode = "fuzzy"
+
+

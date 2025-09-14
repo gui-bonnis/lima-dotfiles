@@ -1,0 +1,19 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="zellij:tab-bar"
+    }
+    pane size=1 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+    pane
+}
+
+keybinds {
+    normal {
+        bind "Alt h" { focus "left" }
+        bind "Alt l" { focus "right" }
+        bind "Alt k" { focus "up" }
+        bind "Alt j" { focus "down" }
+    }
+}
+

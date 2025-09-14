@@ -1,0 +1,19 @@
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+# Aliases
+alias ls="eza --icons"
+alias ll="eza -l --git"
+alias la="eza -la"
+
+# Starship prompt
+eval "$(starship init zsh)"
+
+# Atuin history
+eval "$(atuin init zsh)"
+
+# Fuzzy search
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+

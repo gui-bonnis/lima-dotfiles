@@ -1,0 +1,8 @@
+[data]
+  name = "Guilherme Bonnis"
+  email = "guibonnis@gmail.com"
+
+[apply]
+  # always ask before overwriting a file you edited locally
+  prompt = true
+
